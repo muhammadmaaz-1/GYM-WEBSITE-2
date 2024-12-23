@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+.hero h1 {
+    font-size: 36px;
+    color: #333;
+}
+.highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+.highlights li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.about h1, .membership-plans h1 {
+    font-size: 32px;
+    color: #333;
+}
+.membership-plans {
+    display: flex;
+    justify-content: space-around;
+}
+.plan {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 8px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
